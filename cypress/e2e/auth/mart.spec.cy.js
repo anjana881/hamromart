@@ -2,8 +2,8 @@ import martPage from '../pages/martPage.cy'
 const martobj = new martPage;
 describe('checkout', () => {
     beforeEach(() => {
-        // martobj.pageVisit('https://mart-uat.hamrostack.com/-NwyUBP0kucDlS2mZShz/product/cmVhY3Rpb24vcHJvZHVjdDpCQUxzZGFxOFRnVEV5N2c1UA==_0kucDlS2');
-          martobj.pageVisit('https://mart-uat.hamrostack.com/-NwyUBP0kucDlS2mZShz/product/cmVhY3Rpb24vcHJvZHVjdDptS0JQakJqYks0aG5qZGtjSA==_0kucDlS2');
+        martobj.pageVisit('https://mart-uat.hamrostack.com/-NwyUBP0kucDlS2mZShz/product/cmVhY3Rpb24vcHJvZHVjdDpCQUxzZGFxOFRnVEV5N2c1UA==_0kucDlS2');
+        //   martobj.pageVisit('https://mart-uat.hamrostack.com/-NwyUBP0kucDlS2mZShz/product/cmVhY3Rpb24vcHJvZHVjdDptS0JQakJqYks0aG5qZGtjSA==_0kucDlS2');
     })
     it('should check product availability and proceed accordingly ', () => {
         //check if out of stock is visible
